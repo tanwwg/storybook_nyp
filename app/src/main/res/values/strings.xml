@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">StoryBook</string>
+
+    <string name="scene1">Beneath a sky full of twinkling stars, a little firefly named Lumi peeked out of the tall grass. She wanted to explore beyond the meadow, but the dark forest looked a little scary. Her light glowed softly, making the flowers sparkle as if they were winking at her.</string>
+
+    <string name="scene2">Lumi fluttered into the forest. Trees towered above her, their leaves whispering in the wind. Shadows stretched across the ground, but whenever Lumi flashed her light, the shadows danced away. She discovered friendly owls and rabbits who smiled at her glow.</string>
+
+    <string name="scene3">At last, Lumi reached a hilltop where the sky began to brighten. As the sun rose, her tiny glow blended with the golden light of morning. She realized she wasn’t small or weak—her light had guided her through the dark, and that made her brave.</string>
 </resources>

@@ -34,6 +34,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -76,16 +77,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                else -> R.drawable.scene3
             }
 
-            var text = when(page) {
-                0 -> "Beneath a sky full of twinkling stars, a little firefly named Lumi peeked out of the tall grass. " +
-                        "She wanted to explore beyond the meadow, but the dark forest looked a little scary. " +
-                        "Her light glowed softly, making the flowers sparkle as if they were winking at her."
-                1 -> "Lumi fluttered into the forest. Trees towered above her, their leaves whispering in the wind. " +
-                        "Shadows stretched across the ground, but whenever Lumi flashed her light, the shadows danced away. " +
-                        "She discovered friendly owls and rabbits who smiled at her glow."
-                else -> "At last, Lumi reached a hilltop where the sky began to brighten. " +
-                        "As the sun rose, her tiny glow blended with the golden light of morning. " +
-                        "She realized she wasn’t small or weak—her light had guided her through the dark, and that made her brave."
+            val text = when(page) {
+                0 -> stringResource(R.string.scene1)
+                1 -> stringResource(R.string.scene2)
+                else -> stringResource(R.string.scene3)
             }
 
             val isVisible = pagerState.currentPage == page
